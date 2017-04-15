@@ -1,0 +1,29 @@
+{
+  "name": "pundit-edmond-bot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "transpiled/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "babel src --out-dir transpiled --copy-files --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yi-jiayu/pundit-edmond-bot.git"
+  },
+  "author": "Jiayu Yi <yi-jiayu@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yi-jiayu/pundit-edmond-bot/issues"
+  },
+  "homepage": "https://github.com/yi-jiayu/pundit-edmond-bot#readme",
+  "dependencies": {
+    "request": "^2.81.0",
+    "source-map-support": "^0.4.14",
+    "twitter": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
